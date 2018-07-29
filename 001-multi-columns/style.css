@@ -1,0 +1,8 @@
+.myrow{display:-webkit-flex;display:flex}
+.mycol-1{ flex: 1; }
+.mycol-2{ flex: 2; }
+.mycol-3{ flex: 3; }
+.mycol-4{ flex: 4; }
+.mycol-5{ flex: 5; }
+.mycol-6{ flex: 6; }
+@media screen and (max-width:700px){.myrow{-webkit-flex-direction:column;flex-direction:column}}
